@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-03
+
 ### Added
 - `search_by_category()` trong `aims/search.py`.
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()`.
