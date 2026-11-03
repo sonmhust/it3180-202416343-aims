@@ -10,6 +10,11 @@
 - `search_by_category()` trong `aims/search.py`.
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()`.
 
+## [1.0.1] - 2026-11-03
+
+### Fixed
+- `search_by_title` không còn phân biệt hoa thường (#22)
+
 ## [1.0.0] - 2026-11-03
 
 ### Added
