@@ -27,7 +27,10 @@ class Cart:
         return sum(item.cost for item in self.items)
     
     def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
         print("***************CART***************")
         for i, d in enumerate(self.items, 1):
             print(f"{i}. {d}")
-        print(f"Total cost: {self.total_cost():.2f} $")    
+        print(f"Total cost: {self.total_cost():.2f} $")
